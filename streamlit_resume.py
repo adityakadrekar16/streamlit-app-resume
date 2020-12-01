@@ -3,4 +3,4 @@ import streamlit as st
 st.text('Aditya Kadrekar')
 
 # choose filter
-st.sidebar.filter('Choose ...')
+st.sidebar.title('Choose ...')
