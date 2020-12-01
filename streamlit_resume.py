@@ -1,3 +1,6 @@
 import streamlit as st
 
-st.title('Create resume')
+st.text('Aditya Kadrekar')
+
+# choose filter
+st.sidebar.filter('Choose ...')
