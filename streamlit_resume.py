@@ -6,6 +6,8 @@ st.markdown('[github.com/adityakadrekar16](https://github.com/adityakadrekar16)'
 
 # choose filter
 st.sidebar.title('Choose ...')
+st.sidebar.radio("What's your favorite movie genre", ('Comedy', 'Drama', 'Documentary'))
+
 
 # https://github.com/streamlit/streamlit/issues/1088
 # base64_pdf = base64.b64encode(pdf_file.read()).decode('utf-8')
