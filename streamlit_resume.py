@@ -2,7 +2,7 @@ import streamlit as st
 
 # resume title
 st.title('Aditya Kadrekar')
-st.markdown('https://github.com/adityakadrekar16')
+st.markdown('[github.com/adityakadrekar16](https://github.com/adityakadrekar16)')
 
 # choose filter
 st.sidebar.title('Choose ...')
