@@ -6,7 +6,10 @@ st.markdown('[github.com/adityakadrekar16](https://github.com/adityakadrekar16)'
 
 # choose filter
 st.sidebar.title('Choose ...')
-st.sidebar.radio("What's your favorite movie genre", ('Comedy', 'Drama', 'Documentary'))
+check_button = st.sidebar.radio("What's your favorite movie genre", ('Comedy', 'Drama', 'Documentary'))
+
+if check_button == 'Comedy':
+  st.write('It works')
 
 
 # https://github.com/streamlit/streamlit/issues/1088
