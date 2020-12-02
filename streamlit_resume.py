@@ -6,9 +6,9 @@ st.markdown('[github.com/adityakadrekar16](https://github.com/adityakadrekar16)'
 
 # choose filter
 st.sidebar.title('Choose ...')
-check_button = st.sidebar.radio("What's your favorite movie genre", ('Comedy', 'Drama', 'Documentary'))
+check_button = st.sidebar.radio("What's your favorite movie genre", ('Education', 'Work Experience', 'Research Experience', 'Projects'))
 
-if check_button == 'Comedy':
+if check_button == 'Education':
   st.write('It works')
 
 
